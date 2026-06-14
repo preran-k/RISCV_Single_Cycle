@@ -1,20 +1,20 @@
 # RISCV_Single_Cycle
 A Verilog implementation of a single-cycle RISC-V processor
 
-##Overview
+## Overview
 This project implements a basic RV32I single-cycle processor capable of executing arithmetic, logical, load, and store instructions.
 
-##Implemented Instructions
+## Implemented Instructions
 
-###R-Type
+### R-Type
 ADD
 AND
 OR
-###Memory Instructions
+### Memory Instructions
 LW (Load Word)
 SW (Store Word)
 
-##Modules
+## Modules
 Program Counter (PC)
 Instruction Memory
 Register File
@@ -27,9 +27,9 @@ Multiplexers
 PC Adder
 Top-Level Processor Module
 
-##Project Structure
+## Project Structure
 
-###RTL/
+### RTL/
 
 single_cycle_top.v
 pc.v
@@ -44,15 +44,15 @@ data_mem.v
 PC_adder.v
 mux.v
 
-###Testbench/
+### Testbench/
 
 single_cycle_tb.v
 
-##Tools Used
+## Tools Used
 
 Xilinx Vivado
 
-##Verification
+## Verification
 
 The processor has been verified through behavioral simulation for:
 
